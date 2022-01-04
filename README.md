@@ -20,4 +20,22 @@ dice will be shown to the player.
 There will be a countdown timer showing the time left before the next shuffle.
 ![image](https://user-images.githubusercontent.com/87278039/148101944-c5402d7a-8b41-4609-ba8c-bc1423e96f67.png)
 
+The player will have to guess the output before the timer ends. To guess the output, the player
+will have to click on any of the 6 options corresponding to 6 faces of the dice. The player has to
+make this choice before the timer ends.
+
+![image](https://user-images.githubusercontent.com/87278039/148102406-98c2aa64-425a-477a-9a64-81f84fbe312d.png)
+
+When the timer ends, the dice will shuffle. If the output of the dice matches the choice made by
+the user, the score will be increased. The player will also be shown a message that their choice
+was correct.
+
+![image](https://user-images.githubusercontent.com/87278039/148102477-bf7eb93d-515b-4d6b-83ca-b4e6043c1a1c.png)
+
+If the choice does not match the dice output, the score will remain the same. Again the player
+will be shown a message saying their choice was wrong.
+
+![image](https://user-images.githubusercontent.com/87278039/148102602-93c234ea-792a-4bcc-9b2d-106f09cfbf74.png)
+
+
                                         
