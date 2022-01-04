@@ -1,0 +1,125 @@
+
+
+body{
+    background: linear-gradient(to right,white, red);
+}
+.container{
+    width: 800px;
+    height: 750px;
+    background-color: #ffffff;    
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0,0,0,.16);
+    border-radius: 30px;
+    margin: 100px auto;
+    padding: 10px;
+    position: relative;
+                                       
+   }
+   .score{
+       background-color:#FF7F7F;
+       color: black;
+       padding: 20px;
+       border-radius: 20px;
+       font-size: 21px;
+       position: absolute;
+       top: 20px;
+       right: 30px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+   }
+   .choice{
+    background-color:#FF7F7F;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 21px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .correct{
+    background-color:#FF7F7F;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    position:absolute;
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+   
+    
+   }
+   .wrong{
+    background-color:#FF7F7F;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    position:absolute;
+    display: none;
+    right: 5px;
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   }
+   .loadingText{
+    background-color:#FF7F7F;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 21px;
+    position: absolute;
+    bottom: 40px;
+    left:160px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .countDown{
+    background-color:#FF7F7F;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 21px;
+    position: absolute;
+    bottom: 40px;
+    left:210px;
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   }
+   div.box{
+       object-fit: contain;
+       text-align: center;
+       margin: 20px;
+       padding: 20px;
+   }
+   .h1title{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+        
+    
+   }
+   .btn{
+       text-align: center;
+   }
+   button{
+       height: 75px;
+       width: 100px;
+       background-color: white;
+       box-shadow: inset 5px 5px 12px #ffffff,
+                         5px 5px 12px rgba(0,0,0,.16);
+        border-radius: 23%;
+        border:none;
+        color: black;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+         font-size: 25px;  
+         transition: ease-out 0.3s;
+         
+   }
+   button:hover{
+    box-shadow: inset 100px 0 0 0 #FF7F7F;
+
+   }
